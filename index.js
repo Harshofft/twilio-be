@@ -93,7 +93,6 @@ app.post("/signin", (req, res) => {
     message: "You have signed in successfully",
     token: token
    })
-   
 })
 
 app.post("/organizations", authMiddleware,(req,res)=>{
